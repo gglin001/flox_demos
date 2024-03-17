@@ -1,0 +1,155 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "hook": {},
+    "install": {
+      "fd": {
+        "pkg-path": "fd"
+      },
+      "jq": {
+        "pkg-path": "jq"
+      },
+      "python313": {
+        "pkg-path": "python313"
+      }
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin"
+      ]
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    },
+    "vars": {}
+  },
+  "packages": {
+    "aarch64-darwin": {
+      "fd": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "fd"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A simple, fast and user-friendly alternative to find",
+          "license": null,
+          "pname": "fd",
+          "unfree": false,
+          "version": "8.7.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710628718,
+            "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+            "type": "github"
+          },
+          "fingerprint": "257126b9a4ec7e4855a4281b93d26478486567832e08ffe803440dfe3a8c0f6d",
+          "url": "github:NixOS/nixpkgs/6dc11d9859d6a18ab0c5e5829a5b8e4810658de3"
+        },
+        "priority": 5
+      },
+      "jq": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "jq"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A lightweight and flexible command-line JSON processor",
+          "license": "MIT",
+          "pname": "jq",
+          "unfree": false,
+          "version": "1.7.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710628718,
+            "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+            "type": "github"
+          },
+          "fingerprint": "257126b9a4ec7e4855a4281b93d26478486567832e08ffe803440dfe3a8c0f6d",
+          "url": "github:NixOS/nixpkgs/6dc11d9859d6a18ab0c5e5829a5b8e4810658de3"
+        },
+        "priority": 5
+      },
+      "python313": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "python313"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A high-level dynamically-typed programming language",
+          "license": "Python-2.0",
+          "pname": "python3",
+          "unfree": false,
+          "version": "3.13.0a2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710628718,
+            "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+            "type": "github"
+          },
+          "fingerprint": "257126b9a4ec7e4855a4281b93d26478486567832e08ffe803440dfe3a8c0f6d",
+          "url": "github:NixOS/nixpkgs/6dc11d9859d6a18ab0c5e5829a5b8e4810658de3"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1710628718,
+          "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
