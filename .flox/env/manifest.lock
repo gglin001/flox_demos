@@ -1,0 +1,242 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "hook": {},
+    "install": {
+      "fd": {
+        "pkg-path": "fd"
+      },
+      "jq": {
+        "pkg-path": "jq"
+      },
+      "python313": {
+        "pkg-path": "python313"
+      }
+    },
+    "options": {
+      "systems": [
+        "aarch64-linux",
+        "aarch64-darwin"
+      ]
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    },
+    "vars": {}
+  },
+  "packages": {
+    "aarch64-darwin": {
+      "fd": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "fd"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A simple, fast and user-friendly alternative to find",
+          "license": null,
+          "pname": "fd",
+          "unfree": false,
+          "version": "8.7.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710655087,
+            "narHash": "sha256-3AG/CvZYYZuSsUfJwCsQ2jV5tqVPNUeW37xI9FkDFxg=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "a9e89799905f4f7518944aa4bd33300f6fdba287",
+            "type": "github"
+          },
+          "fingerprint": "dc824c8303a84d0ce7284e3b48cd3837158921c9edcb0a9e34599d236af416ef",
+          "url": "github:NixOS/nixpkgs/a9e89799905f4f7518944aa4bd33300f6fdba287"
+        },
+        "priority": 5
+      },
+      "jq": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "jq"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A lightweight and flexible command-line JSON processor",
+          "license": "MIT",
+          "pname": "jq",
+          "unfree": false,
+          "version": "1.7.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710655087,
+            "narHash": "sha256-3AG/CvZYYZuSsUfJwCsQ2jV5tqVPNUeW37xI9FkDFxg=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "a9e89799905f4f7518944aa4bd33300f6fdba287",
+            "type": "github"
+          },
+          "fingerprint": "dc824c8303a84d0ce7284e3b48cd3837158921c9edcb0a9e34599d236af416ef",
+          "url": "github:NixOS/nixpkgs/a9e89799905f4f7518944aa4bd33300f6fdba287"
+        },
+        "priority": 5
+      },
+      "python313": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "python313"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A high-level dynamically-typed programming language",
+          "license": "Python-2.0",
+          "pname": "python3",
+          "unfree": false,
+          "version": "3.13.0a2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710655087,
+            "narHash": "sha256-3AG/CvZYYZuSsUfJwCsQ2jV5tqVPNUeW37xI9FkDFxg=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "a9e89799905f4f7518944aa4bd33300f6fdba287",
+            "type": "github"
+          },
+          "fingerprint": "dc824c8303a84d0ce7284e3b48cd3837158921c9edcb0a9e34599d236af416ef",
+          "url": "github:NixOS/nixpkgs/a9e89799905f4f7518944aa4bd33300f6fdba287"
+        },
+        "priority": 5
+      }
+    },
+    "aarch64-linux": {
+      "fd": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "fd"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A simple, fast and user-friendly alternative to find",
+          "license": null,
+          "pname": "fd",
+          "unfree": false,
+          "version": "8.7.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710655087,
+            "narHash": "sha256-3AG/CvZYYZuSsUfJwCsQ2jV5tqVPNUeW37xI9FkDFxg=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "a9e89799905f4f7518944aa4bd33300f6fdba287",
+            "type": "github"
+          },
+          "fingerprint": "dc824c8303a84d0ce7284e3b48cd3837158921c9edcb0a9e34599d236af416ef",
+          "url": "github:NixOS/nixpkgs/a9e89799905f4f7518944aa4bd33300f6fdba287"
+        },
+        "priority": 5
+      },
+      "jq": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "jq"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A lightweight and flexible command-line JSON processor",
+          "license": "MIT",
+          "pname": "jq",
+          "unfree": false,
+          "version": "1.7.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710655087,
+            "narHash": "sha256-3AG/CvZYYZuSsUfJwCsQ2jV5tqVPNUeW37xI9FkDFxg=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "a9e89799905f4f7518944aa4bd33300f6fdba287",
+            "type": "github"
+          },
+          "fingerprint": "dc824c8303a84d0ce7284e3b48cd3837158921c9edcb0a9e34599d236af416ef",
+          "url": "github:NixOS/nixpkgs/a9e89799905f4f7518944aa4bd33300f6fdba287"
+        },
+        "priority": 5
+      },
+      "python313": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "python313"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A high-level dynamically-typed programming language",
+          "license": "Python-2.0",
+          "pname": "python3",
+          "unfree": false,
+          "version": "3.13.0a2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710655087,
+            "narHash": "sha256-3AG/CvZYYZuSsUfJwCsQ2jV5tqVPNUeW37xI9FkDFxg=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "a9e89799905f4f7518944aa4bd33300f6fdba287",
+            "type": "github"
+          },
+          "fingerprint": "dc824c8303a84d0ce7284e3b48cd3837158921c9edcb0a9e34599d236af416ef",
+          "url": "github:NixOS/nixpkgs/a9e89799905f4f7518944aa4bd33300f6fdba287"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1710655087,
+          "narHash": "sha256-3AG/CvZYYZuSsUfJwCsQ2jV5tqVPNUeW37xI9FkDFxg=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "a9e89799905f4f7518944aa4bd33300f6fdba287",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
